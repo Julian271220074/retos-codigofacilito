@@ -31,7 +31,6 @@ def obtener_apellidos():
         return obtener_apellidos()
 
 
-# Función para solicitar y validar el número de teléfono
 def obtener_telefono():
     telefono = input("Ingrese su número de teléfono (10 dígitos): ")
     if validar_telefono(telefono):
